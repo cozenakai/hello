@@ -1,19 +1,15 @@
 <template>
-  <div class="container">
-    <p>Hello World!!</p>
-  </div>
+  <section class="container">
+    <p>{{ message }}</p>
+  </section>
 </template>
 
 <script>
-
-
 export default {
-  
-    
+  data: function(){
+    return {
+      message: 'Hello World!'
+    }
   }
-
+}
 </script>
-
-<style>
-
-</style>
